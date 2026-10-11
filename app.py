@@ -465,4 +465,32 @@ st.caption(
     "commerciale est soumise à autorisation préalable, sous réserve "
     "des droits des tiers et des exceptions prévues par la "
     "législation applicable."
+""")
+
+# --------------------------------------------------
+# 9. Contact et demandes d'autorisation
+# --------------------------------------------------
+
+st.divider()
+
+st.markdown("### Contact et demandes d’autorisation")
+
+st.markdown("""
+Pour toute question concernant le dictionnaire, la base
+terminologique, les données publiées ou les conditions de réutilisation,
+vous pouvez contacter l’autrice.
+
+Pour toute demande d’autorisation relative à la reproduction,
+à la redistribution, à l’adaptation ou à l’exploitation commerciale
+de la base terminologique, une demande écrite préalable est requise.
+""")
+
+st.markdown(
+    "**Contact :** "
+    "[berenicekabore@gmail.com](mailto:berenicekabore@gmail.com)"
+)
+
+st.caption(
+    "Autrice : Bérénice KABORE. "
+    "Veuillez préciser l’objet de votre demande dans votre message."
 )
