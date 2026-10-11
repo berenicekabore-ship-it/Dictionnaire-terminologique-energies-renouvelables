@@ -395,7 +395,7 @@ domaine.
 st.markdown("#### Références et responsabilité scientifique")
 
 st.markdown("""
-- **Autrice :** Bérénice KABORE, terminologue.
+- **Autrice :** Bérénice KABORE.
 - **Référence de la base :** *Glossaire Français-Anglais de la
   terminologie des énergies renouvelables*, version V1.
 """)
@@ -415,7 +415,7 @@ Le *Glossaire Français-Anglais de la terminologie des énergies
 renouvelables*, version V1, ainsi que sa structure, son organisation
 terminologique et les éléments originaux qui le composent, constituent
 une ressource intellectuelle dont les droits appartiennent à son
-autrice, Bérénice KABORE, terminologue, sous réserve des droits
+autrice, Bérénice KABORE, sous réserve des droits
 éventuellement détenus par des tiers sur certains contenus.
 
 La consultation de ce dictionnaire est autorisée à des fins
@@ -452,7 +452,7 @@ la législation applicable en matière de propriété intellectuelle.
 # Identification de l'autrice et de la ressource
 st.markdown("""
 **Autrice et titulaire des droits revendiqués :**
-Bérénice KABORE, terminologue.
+Bérénice KABORE.
 
 **Ressource concernée :** *Glossaire Français-Anglais de la
 terminologie des énergies renouvelables*, version V1.
