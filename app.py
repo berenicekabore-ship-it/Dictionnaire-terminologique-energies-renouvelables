@@ -465,7 +465,7 @@ st.caption(
     "commerciale est soumise à autorisation préalable, sous réserve "
     "des droits des tiers et des exceptions prévues par la "
     "législation applicable."
-""")
+)
 
 # --------------------------------------------------
 # 9. Contact et demandes d'autorisation
