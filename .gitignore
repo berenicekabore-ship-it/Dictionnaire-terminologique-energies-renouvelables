@@ -1,0 +1,11 @@
+# Secrets Streamlit
+.streamlit/
+secrets.toml
+
+# Fichiers Excel
+*.xlsx
+
+# Identifiants Google
+*service-account*.json
+*credentials*.json
+ Copier le contenu
