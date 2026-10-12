@@ -184,9 +184,9 @@ st.success("Le dictionnaire est disponible.")
 
 col_stat1, col_stat2, col_stat3 = st.columns(3)
 with col_stat1:
-    st.metric("Entrées terminologiques bilingues", f"{nombre_entrees:,}".replace(",", " "))
+    st.metric("Entrées terminologiques", f"{nombre_entrees:,}".replace(",", " "))
 with col_stat2:
-    st.metric("Formes terminologiques", f"{nombre_formes:,}".replace(",", " "))
+    st.metric("Nombre total de termes", f"{nombre_formes:,}".replace(",", " "))
 with col_stat3:
     st.metric("Langues", "Français · English")
 
