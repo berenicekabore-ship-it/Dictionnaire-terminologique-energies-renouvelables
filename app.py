@@ -304,7 +304,7 @@ with st.expander("Contenu et organisation"):
         f"""
         La base terminologique comprend **{nombre_entrees:,} entrées bilingues**
         et **{nombre_formes:,} formes terminologiques au total**.
-        Elle comprend **785 termes complexes** et **215 termes simples**,
+        Elle comprend **1567 termes complexes** et **433 termes simples**,
         organisés selon une structure bilingue harmonisée.
 
         Chaque entrée possède un identifiant unique afin de faciliter son
