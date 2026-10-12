@@ -21,6 +21,125 @@ st.set_page_config(
 
 # L'identifiant du fichier n'est pas une clé privée. Il peut toutefois
 # être conservé dans les secrets Streamlit pour centraliser la configuration.
+
+# --------------------------------------------------
+# STYLE VISUEL : THÈME BLEU
+# --------------------------------------------------
+
+st.markdown(
+    """
+    <style>
+    /* Fond général */
+    .stApp {
+        background: linear-gradient(
+            135deg,
+            #f3f7fc 0%,
+            #e7f0fb 50%,
+            #f8fbff 100%
+        );
+    }
+
+    /* Zone principale */
+    .block-container {
+        max-width: 1200px;
+        padding-top: 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    /* Titre principal */
+    h1 {
+        color: #164e8a !important;
+        font-weight: 800 !important;
+        letter-spacing: -0.5px;
+    }
+
+    /* Sous-titres */
+    h2, h3, h4 {
+        color: #205b96 !important;
+        font-weight: 700 !important;
+    }
+
+    /* Texte secondaire */
+    .stCaption {
+        color: #63758b !important;
+    }
+
+    /* Champs de recherche et autres champs de saisie */
+    div[data-baseweb="input"] input {
+        background-color: #ffffff !important;
+        border-radius: 10px !important;
+    }
+
+    div[data-baseweb="input"] {
+        border-radius: 10px !important;
+    }
+
+    /* Boutons */
+    .stButton > button {
+        background: linear-gradient(
+            135deg,
+            #1769aa,
+            #124b83
+        );
+        color: white !important;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: 0.2s ease;
+    }
+
+    .stButton > button:hover {
+        background: #0e3d6b;
+        border: none;
+        color: white !important;
+    }
+
+    /* Statistiques */
+    div[data-testid="stMetric"] {
+        background: rgba(255, 255, 255, 0.88);
+        border: 1px solid #d5e5f5;
+        border-radius: 14px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 14px rgba(25, 75, 125, 0.07);
+    }
+
+    div[data-testid="stMetricLabel"] {
+        color: #345c82 !important;
+        font-weight: 600;
+    }
+
+    div[data-testid="stMetricValue"] {
+        color: #164e8a !important;
+        font-weight: 750;
+    }
+
+    /* Fiches de résultats */
+    div[data-testid="stExpander"] {
+        background-color: rgba(255, 255, 255, 0.94);
+        border: 1px solid #d4e3f2;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    div[data-testid="stExpander"] summary {
+        color: #164e8a;
+        font-weight: 600;
+    }
+
+    /* Séparateurs */
+    hr {
+        border-color: #cbdced !important;
+    }
+
+    /* Liens */
+    a {
+        color: #1769aa !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 FILE_ID = st.secrets.get("drive", {}).get(
     "file_id",
     "1CSW3D8w6SGB-eZ0vR9U-MvNzahtOojhY",
