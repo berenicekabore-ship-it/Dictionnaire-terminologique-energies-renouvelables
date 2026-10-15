@@ -14,7 +14,7 @@ from googleapiclient.errors import HttpError
 # --------------------------------------------------
 
 st.set_page_config(
-    page_title="Dictionnaire terminologique bilingue | Énergies renouvelables",
+    page_title="DICTIONNAIRE TERMINOLOGIQUE BILINGUE | ÉNERGIES RENOUVELABLES",
     page_icon="📚",
     layout="wide",
 )
